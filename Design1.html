@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: purple;
+        }
+        .container{
+            background-color: white;
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            margin: auto;
+            margin-top: 100px;
+        }
+        .text1{
+            text-align: center;
+        }
+        .username-container{
+            margin: 40px;
+            text-align: left;
+        }
+        .username-input{
+            border: none;
+            border-bottom: 1px solid  black;
+            width: 300px;
+            padding: 5px;
+            font-size: 15px;
+            outline: none;
+        }
+        .password-container{
+            margin: 40px;
+            text-align: left;
+        }
+        .password-input{
+            border: none;
+            border-bottom: 1px solid  black;
+            width: 300px;
+            padding: 5px;
+            font-size: 15px;
+            outline: none;
+        }
+        .forgetpassword{
+            margin-left: 40px;
+            color: rgba(0, 0, 0, 0.514);
+        }
+        .btn button{
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;  
+            height: 30px;          
+            width: 250px;
+            margin-left: 70px;
+            background-color: aquamarine;
+            font-weight: 800;
+        }
+        .End{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 class="text1">Login</h1>
+    <hr>
+    <div class="username-container">
+    <label for="username"></label>
+    <input type="text" class="username-input" id="username" placeholder="username">
+</div>
+<div class="password-container">
+<label for="password"></label>
+<input type="password" class="password-input" id="password" placeholder="password">
+</div>
+<div class="forgetpassword">
+<h4>Forget password?</h4>
+</div>
+<div class="btn">
+<button>Login</button>
+</div>
+<div class="End">
+    <h4>Not a member? <span class="text2">Signup</span> </h4> 
+</div>
+</div>
+</body>
+</html>
